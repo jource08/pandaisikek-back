@@ -17,7 +17,7 @@ app.get("/todos", async (req, res) => {
   }
 });
 
-// get a todo
+// get a todoo
 app.get("/todos/:id", async (req, res) => {
   try {
     const { id } = req.params;
